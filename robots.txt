@@ -1,0 +1,101 @@
+########################################################################################
+######## Creare's robots.txt file for Magento websites installed on domain root ########
+########################################################################################
+
+User-agent: *
+Allow: /
+#Disallow: /
+
+
+#######################################
+############### SITEMAP ###############
+#######################################
+
+Sitemap: http://www.domain.co.uk/sitemap.xml
+ 
+
+#######################################
+################ PAGES ################
+#######################################
+
+Disallow: /privacy-policy-cookie-restriction-mode/
+Disallow: /terms/
+
+
+#######################################
+##### MAGENTO DIRECTORIES & FILES #####
+#######################################
+
+##### Directories ##### 
+
+Disallow: /404/
+Disallow: /app/
+Disallow: /cgi-bin/
+Disallow: /downloader/
+Disallow: /includes/
+Disallow: /js/
+Disallow: /lib/
+Disallow: /magento/
+Disallow: /pkginfo/
+Disallow: /report/
+Disallow: /skin/
+Disallow: /stats/
+Disallow: /var/
+
+##### Paths (clean URLs) #####
+
+Disallow: /index.php/
+Disallow: /catalog/product_compare/
+Disallow: /catalog/category/view/
+Disallow: /catalog/product/view/
+Disallow: /catalogsearch/
+Disallow: /checkout/
+Disallow: /control/
+Disallow: /contacts/
+Disallow: /customer/
+Disallow: /customize/
+Disallow: /newsletter/
+Disallow: /poll/
+Disallow: /review/
+Disallow: /sendfriend/
+Disallow: /tag/
+Disallow: /wishlist/
+
+##### Files #####
+
+Disallow: /cron.php
+Disallow: /cron.sh
+Disallow: /error_log
+Disallow: /install.php
+Disallow: /LICENSE.html
+Disallow: /LICENSE.txt
+Disallow: /LICENSE_AFL.txt
+Disallow: /STATUS.txt
+
+##### Querystring (no clean URLs) #####
+
+Disallow: /*?p=*&
+Disallow: /*?SID=
+Disallow: /*?invis=
+Disallow: /*?tag=
+Disallow: /*?osCsid=
+Disallow: /*?manufacturers_id=
+Disallow: /*?currency=
+Disallow: /*?limit=
+Disallow: /*?catid=
+Disallow: /*?mode=
+Disallow: /*?dir=
+Disallow: /*?order=
+
+
+#######################################
+#### WORDPRESS DIRECTORIES & FILES ####
+#######################################
+
+##### Uncomment if using Wordpress in subdirectory #####
+
+#Disallow: /blog/wp-content/plugins/
+#Disallow: /blog/wp-content/themes/
+#Disallow: /blog/wp-content/upgrade/
+#Disallow: /blog/wp-admin/
+#Disallow: /blog/wp-includes/
