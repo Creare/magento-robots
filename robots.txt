@@ -1,5 +1,5 @@
 ########################################################################################
-######## Creare's robots.txt file for Magento websites installed on domain root ########
+##################### Creare's robots.txt file for Magento websites ####################
 ########################################################################################
 
 User-agent: *
@@ -73,6 +73,7 @@ Disallow: /LICENSE_AFL.txt
 Disallow: /STATUS.txt
 
 ##### Querystring (no clean URLs) #####
+
 Disallow: /*?*
 
 
