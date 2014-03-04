@@ -13,6 +13,13 @@ Allow: /
 
 User-agent: Screaming Frog SEO Spider
 Allow: /
+Disallow: /*.gif$
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /*.bmp$
+Disallow: /*.xml$
+Disallow: /*.css$
+Disallow: /*.js$
 
 #######################################
 ############### SITEMAP ###############
