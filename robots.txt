@@ -47,6 +47,7 @@ Disallow: /index.php/
 Disallow: /catalog/product_compare/
 Disallow: /catalog/category/view/
 Disallow: /catalog/product/view/
+Disallow: /catalog/product/gallery/
 Disallow: /catalogsearch/
 Disallow: /checkout/
 Disallow: /control/
