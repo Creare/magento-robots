@@ -72,9 +72,13 @@ Disallow: /LICENSE.txt
 Disallow: /LICENSE_AFL.txt
 Disallow: /STATUS.txt
 
-##### Querystring (no clean URLs) #####
+#######################################
+######## QUERY STRING BLOCKER #########
+#######################################
 
-Disallow: /*?*
+#Uncomment if your site is a brand new un-cached site.
+
+#Disallow: /*?*
 
 
 #######################################
