@@ -32,12 +32,10 @@ Disallow: /app/
 Disallow: /cgi-bin/
 Disallow: /downloader/
 Disallow: /includes/
-Disallow: /js/
 Disallow: /lib/
 Disallow: /magento/
 Disallow: /pkginfo/
 Disallow: /report/
-Disallow: /skin/
 Disallow: /stats/
 Disallow: /var/
 
