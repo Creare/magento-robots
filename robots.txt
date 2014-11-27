@@ -85,7 +85,6 @@ Disallow: /STATUS.txt
 
 ##### Uncomment if using Wordpress in subdirectory #####
 
-#Disallow: /blog/wp-content/plugins/
 #Disallow: /blog/wp-content/upgrade/
 #Disallow: /blog/wp-admin/
 #Disallow: /blog/wp-includes/
